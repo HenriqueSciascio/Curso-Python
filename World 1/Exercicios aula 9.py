@@ -39,3 +39,37 @@ print(f'dezena: {trunc(num// 10 % 10)}')
 print(f'unidade: {trunc(num// 1 % 10)}')
 """
 
+#desafio 24
+"""
+nome = str(input('digite o nome da sua cidade: '))
+
+if nome.split()[0].upper() == 'SANTO':
+    print('sua cidade começa com a palavra "Santo"')
+else:
+    print('sua cidade não começa com a palavra "Santo"')
+"""
+#desafio 25
+"""
+nome = str(input('digite seu nome: '))
+
+if 'SILVA' in nome.upper():
+    print('o seu nome tem Silva')
+else:
+    print('o seu nome não tem Silva')
+"""
+
+#desafio 26
+"""
+nome = str(input('escreva uma frase: '))
+
+print(f'a letra "a" aparece {nome.count("a")} vezes')
+print(f'a letra a aparece pela primeira vez na {nome.find("a")+1}° posição')
+print(f'a letra a aparece pela ultima vez na {nome.rfind("a")+1}° posição')
+"""
+
+#desafio 27
+"""
+nome = str(input('escreva o seu nome completo: '))
+
+print(f'seu primeiro nome é {nome.split()[0]} e o seu ultimo é {nome.split()[len(nome.split())-1]}')
+"""
