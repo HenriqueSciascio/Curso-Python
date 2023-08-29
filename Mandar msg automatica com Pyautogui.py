@@ -1,4 +1,4 @@
-# mandar msg automatica
+# mandar msg automatica (Desv. Pg, acaba sendo mto especifico)
 import pyautogui as pg
 import time
 """
